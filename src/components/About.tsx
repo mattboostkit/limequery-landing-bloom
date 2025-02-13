@@ -33,7 +33,7 @@ export const About = () => {
           <div className="grid gap-4">
             <div className="relative group overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+                src="/lovable-uploads/0565d05c-dc42-4551-87e3-54ace4f6d2de.png"
                 alt="The Lodge"
                 className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -46,7 +46,7 @@ export const About = () => {
             </div>
             <div className="relative group overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1439337153520-7082a56a81f4"
+                src="/lovable-uploads/20d290d2-30bc-44cc-bc90-0c49c57a6418.png"
                 alt="Private Takeovers"
                 className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -61,7 +61,7 @@ export const About = () => {
           <div className="grid gap-4">
             <div className="relative group overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625"
+                src="/lovable-uploads/c9d69acb-9503-4787-9a80-6dbc4f5dda56.png"
                 alt="Weddings"
                 className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
@@ -74,7 +74,7 @@ export const About = () => {
             </div>
             <div className="relative group overflow-hidden rounded-xl">
               <img 
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                src="/lovable-uploads/2bbab274-0bcc-49e3-8cc6-0b7ca1fa4454.png"
                 alt="Eat & Drink"
                 className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
