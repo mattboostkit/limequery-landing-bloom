@@ -27,6 +27,67 @@ export const About = () => {
           </div>
         </div>
       </div>
+
+      <div className="container mx-auto px-4 mt-20">
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid gap-4">
+            <div className="relative group overflow-hidden rounded-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+                alt="The Lodge"
+                className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/60 p-6 flex flex-col justify-end transition-opacity opacity-0 group-hover:opacity-100">
+                <h3 className="text-xl font-semibold text-white mb-2">The Lodge</h3>
+                <p className="text-white/90">
+                  Explore our spaces for partying, experiencing new things, starting conversations and celebrating milestones.
+                </p>
+              </div>
+            </div>
+            <div className="relative group overflow-hidden rounded-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1439337153520-7082a56a81f4"
+                alt="Private Takeovers"
+                className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/60 p-6 flex flex-col justify-end transition-opacity opacity-0 group-hover:opacity-100">
+                <h3 className="text-xl font-semibold text-white mb-2">Private Takeovers</h3>
+                <p className="text-white/90">
+                  Gather great people and create meaningful moments in our exclusive setting.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div className="relative group overflow-hidden rounded-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625"
+                alt="Weddings"
+                className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/60 p-6 flex flex-col justify-end transition-opacity opacity-0 group-hover:opacity-100">
+                <h3 className="text-xl font-semibold text-white mb-2">Weddings</h3>
+                <p className="text-white/90">
+                  Host it your way in our versatile spaces that can accommodate up to 195 guests.
+                </p>
+              </div>
+            </div>
+            <div className="relative group overflow-hidden rounded-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                alt="Eat & Drink"
+                className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/60 p-6 flex flex-col justify-end transition-opacity opacity-0 group-hover:opacity-100">
+                <h3 className="text-xl font-semibold text-white mb-2">Eat & Drink</h3>
+                <p className="text-white/90">
+                  Enjoy culinary delights from our foodie partners, all passionate about delicious ingredients and creative cooking.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
