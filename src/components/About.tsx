@@ -1,7 +1,6 @@
-
 export const About = () => {
   return (
-    <section className="py-20 bg-limekiln-beige">
+    <section className="py-20 bg-[#F8F2E0]">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-limekiln-earth mb-6">About Limekiln</h2>

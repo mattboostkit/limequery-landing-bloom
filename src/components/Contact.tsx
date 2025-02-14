@@ -1,11 +1,11 @@
 
 export const Contact = () => {
   return (
-    <section id="inquiry" className="py-20 bg-white">
+    <section id="enquiry" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-limekiln-earth mb-8">
-            Make an Inquiry
+            Make an Enquiry
           </h2>
           <form className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -59,9 +59,9 @@ export const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-limekiln-green text-white py-3 rounded-lg transition-colors hover:bg-limekiln-green/90"
+              className="w-full bg-[#E34000] text-white py-3 rounded-lg transition-colors hover:bg-[#E34000]/90"
             >
-              Send Inquiry
+              Send Enquiry
             </button>
           </form>
         </div>
