@@ -1,10 +1,9 @@
-
 export const Contact = () => {
   return (
     <section id="enquiry" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-limekiln-earth mb-8">
+          <h2 className="text-3xl font-bold text-[#E34000] mb-8">
             Make an Enquiry
           </h2>
           <form className="space-y-6">

@@ -3,7 +3,7 @@ export const About = () => {
     <section className="py-20 bg-[#F8F2E0]">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-limekiln-earth mb-6">About Limekiln</h2>
+          <h2 className="text-3xl font-bold text-[#E34000] mb-6">About Limekiln</h2>
           <p className="text-lg text-limekiln-stone mb-8">
             Nestled in the heart of Sussex, Limekiln offers a unique blend of historic charm and modern amenities. 
             Our venue provides the perfect setting for weddings, corporate events, and special celebrations.

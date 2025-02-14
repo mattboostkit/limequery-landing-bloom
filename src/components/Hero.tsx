@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 
 export const Hero = () => {
@@ -10,25 +9,24 @@ export const Hero = () => {
           backgroundImage: 'url("/lovable-uploads/f763c5ba-5768-4cdf-8d85-471fa04c7e70.png")',
           backgroundAttachment: 'fixed' 
         }}
-      >
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
-      <div className="relative h-full flex items-center justify-center text-center">
-        <div className="max-w-4xl px-4 animate-fade-down">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Limekiln
-            <br />
-            Your Private-Hire Lodge for Unforgettable Events
+      />
+      <div className="absolute inset-0 bg-black/30" />
+      <div className="relative h-full flex flex-col items-center justify-center">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="mb-8">
+            <span className="block text-[#E34000] text-8xl tracking-[0.5em] uppercase font-serif mx-[0.25em]">
+              Limekiln
+            </span>
           </h1>
-          <p className="text-xl text-white/90 mb-8">
+          <p className="text-white/90 text-xl max-w-3xl mx-auto mb-12">
             A unique venue nestled in Sussex woodland – perfect for weddings, private takeovers, parties, and more.
           </p>
           <button 
             onClick={() => document.getElementById('enquiry')?.scrollIntoView({ behavior: 'smooth' })}
-            className="group inline-flex items-center gap-2 bg-[#E34000] text-white px-8 py-3 rounded-full transition-all duration-300 hover:bg-[#E34000]/90"
+            className="bg-[#E34000] text-white px-8 py-3 rounded-sm inline-flex items-center gap-2 hover:bg-[#E34000]/90 transition-colors"
           >
             Enquire Now
-            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </div>
