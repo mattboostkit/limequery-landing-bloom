@@ -23,16 +23,13 @@ export const InstagramFeed = () => {
           ></iframe>
         </div>
         
-        <div className="text-center mt-8 sm:mt-12">
-          <a
-            href="https://www.instagram.com/limekilnsussex"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-6 py-3 bg-[#E34000] text-white rounded-lg hover:bg-[#E34000]/90 transition-colors text-base sm:text-lg"
-          >
-            View More on Instagram
-          </a>
-        </div>
+        <style jsx global>{`
+          .instagram-button {
+            background-color: #E34000 !important;
+            border: none !important;
+            color: white !important;
+          }
+        `}</style>
       </div>
     </section>
   );
