@@ -9,7 +9,7 @@ export const InstagramFeed = () => {
             Follow Us on Instagram
           </h2>
           <p className="text-limekiln-stone text-base sm:text-lg">
-            @limekiln_venue
+            @limekilnsussex
           </p>
         </div>
         
@@ -18,7 +18,7 @@ export const InstagramFeed = () => {
           <div className="aspect-square w-full">
             <iframe
               className="w-full h-full"
-              src="https://www.instagram.com/p/C3XqGkctFKR/embed"
+              src="https://www.instagram.com/p/C3VXvUuI5Uf/embed"
               frameBorder="0"
               scrolling="no"
               allowTransparency={true}
@@ -30,7 +30,7 @@ export const InstagramFeed = () => {
           <div className="aspect-square w-full">
             <iframe
               className="w-full h-full"
-              src="https://www.instagram.com/p/C3VBk5_N0Aq/embed"
+              src="https://www.instagram.com/p/C3QfFkxI0Ys/embed"
               frameBorder="0"
               scrolling="no"
               allowTransparency={true}
@@ -42,7 +42,7 @@ export const InstagramFeed = () => {
           <div className="aspect-square w-full hidden lg:block">
             <iframe
               className="w-full h-full"
-              src="https://www.instagram.com/p/C3SXB_5tWsE/embed"
+              src="https://www.instagram.com/p/C3LhELzIuFI/embed"
               frameBorder="0"
               scrolling="no"
               allowTransparency={true}
@@ -54,7 +54,7 @@ export const InstagramFeed = () => {
           <div className="aspect-square w-full hidden lg:block">
             <iframe
               className="w-full h-full"
-              src="https://www.instagram.com/p/C3Pxz6TNkEj/embed"
+              src="https://www.instagram.com/p/C3GiRdJIjpG/embed"
               frameBorder="0"
               scrolling="no"
               allowTransparency={true}
@@ -65,7 +65,7 @@ export const InstagramFeed = () => {
         
         <div className="text-center mt-8 sm:mt-12">
           <a
-            href="https://www.instagram.com/limekiln_venue"
+            href="https://www.instagram.com/limekilnsussex"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-3 bg-[#E34000] text-white rounded-lg hover:bg-[#E34000]/90 transition-colors text-base sm:text-lg"
