@@ -3,6 +3,7 @@ import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { Testimonials } from "@/components/Testimonials";
 import { Gallery } from "@/components/Gallery";
+import { InstagramFeed } from "@/components/InstagramFeed";
 import { Footer } from "../components/Footer";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <Gallery />
       <Testimonials />
       <Contact />
+      <InstagramFeed />
       <Footer />
     </div>
   );
